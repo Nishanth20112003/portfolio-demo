@@ -1,0 +1,184 @@
+<div class="download-cv-section border bg-green-500">
+                                   <a class="bg-gradient-to-r from-gray-700 via-pink-400 to-orange-700 px-3 py-1 font-semibold rounded-full hover:bg-gradient-to-r hover:from-gray-800 hover:via-pink-600 hover:to-orange-800">Download Cv</a>
+                              </div>
+                              
+                               bg-zinc-900
+========================================= SKILS ===========================================================
+<div class="skills">
+                                        <span>html |</span>
+                                        <span>css |</span>
+                                        <span>tailwind css |</span>
+                                        <span>javascript |</span>
+                                        <span>react js |</span>
+                                        <span>next js |</span>
+                                   </div>
+=======================================================================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Permanent+Marker&display=swap");
+body {
+  background-color: rgba(0, 0, 0, 0.932);
+  /* background: rgb(17, 17, 17); */
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.font-custom-font {
+  font-family: Merienda;
+}
+.nav-link:hover {
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(145, 56, 73);
+  border-bottom-right-radius: 10px;
+}
+@media (max-width: 656px) {
+  .nav-link-section {
+    display: none;
+  }
+  .download-cv-section-nav {
+    display: none;
+  }
+}
+@media (max-width: 995px) {
+  .ab-content {
+    width: 90vw;
+    /* border: 1px solid white; */
+  }
+  .about-image {
+    border-radius: 20px;
+  }
+  .ab-header,
+  .ab-middle {
+    width: 90%;
+  }
+  .ab-content {
+    display: flex;
+    gap: 30px;
+  }
+  /* .about-page-content{
+          text-align: center;
+     }
+     .progress-bar-section{
+          margin: auto;
+          margin-top: 20px;
+     } */
+}
+@media (max-width: 895px) {
+.ab-heading{
+     font-size: 35px;
+     margin-left: 60px;
+}
+  .ab-content {
+    display: block;
+  }
+  .about-image {
+     border-radius: 50%;
+     width: 160px;
+     height: 160px;
+     margin-bottom: 10px;
+   }
+   .about-page-content{
+     margin-top: 20px;
+   }
+}
+@media (max-width:635px){
+     .ab-heading{
+          font-size: 25px;
+          margin-left: 60px;
+     }
+       .ab-content {
+         display: block;
+       }
+       .about-image {
+          border-radius: 50%;
+          width: 160px;
+          height: 160px;
+          margin-bottom: 10px;
+          margin-top: -10px;
+        }
+        .about-page-content{
+          margin-top: 10px;
+        }
+}
+@media (max-width:540px) {
+     
+     .ab-content{
+          text-align: center;
+          margin-top: -5px;
+     }
+     .ab-heading{
+          /* border: 1px solid white; */
+          margin-left: 30px;
+          margin-top: 10px;
+     }
+     .about-image {
+          /* margin: auto; */
+          display: none;
+          width: 110px;
+          height: 110px;
+          border-radius: 50px;
+     }
+     .ab-header,
+  .ab-middle {
+    width: 90%;
+    /* border: 1px solid white; */
+    /* margin: auto; */
+    text-align: start;
+  }
+  /* .progress-bar-section{
+     border: 1px solid white;
+}  */
+.progress-bar-section{
+     /* border: 1px solid white; */
+     margin-left: -17px;
+}
+.bar-1{
+     width: 200px;
+}
+.bar-2{
+     width: 180px;
+}
+.bar-3{
+     width: 170px;
+}
+.bar-4{
+     width: 200px;
+}
+.bar-5{
+     width: 170px;
+}
+}
+@media (min-width: 996px) {
+  .about-image {
+    border-radius: 20px;
+  }
+}
+@media(max-width:760px){
+  .about-image{
+    display: none;
+  }
+}
+@media(max-width:937px){
+  .contact-content{
+    display: block;
+    margin-left: 30px;
+    /* border: 1px solid white; */
+    margin-top: 0px;
+  }
+  .con-heading{
+    margin-left: 30px;
+    font-size: 30px;
+  }
+  .lets-talk{
+    font-size: 30px;
+  }
+  .input-field-container{
+    margin-top: 15px;
+  }
+  .input-field{
+    width: 80%;
+  }
+  .second-para{
+    display: none;
+  }
+}
